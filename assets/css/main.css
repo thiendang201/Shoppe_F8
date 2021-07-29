@@ -20,6 +20,12 @@
   color: var(--white-color);
   text-decoration: none;
 }
+.header .nav-list__item,
+.header .nav-list__item > a,
+.header .social-link {
+  display: inline-flex;
+  align-items: center;
+}
 .header .nav-list__item {
   margin: 0 8px;
   position: relative;
@@ -42,4 +48,9 @@
 
 .nav-list__item--strong {
   font-weight: 500;
+}
+
+.header .social-link__icon {
+  font-size: 1.6rem;
+  padding: 0 0.4rem;
 }
